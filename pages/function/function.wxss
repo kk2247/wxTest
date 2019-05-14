@@ -1,0 +1,14 @@
+page { 
+    background-color:  ghostwhite; text-align: center;  
+}
+
+.fontStyle{
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.fontDiv{
+  height: 100%;
+  align-items: center;
+}

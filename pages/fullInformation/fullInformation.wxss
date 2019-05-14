@@ -1,0 +1,70 @@
+/* pages/fullInformation/fullInformation.wxss */
+.row input {
+font-size: 0.7rem;
+flex-grow: 3;
+border: 1px solid #0099CC;
+display: inline-block;
+border-radius: 0.3rem;
+box-shadow: 0 0 0.15rem #aaa;
+padding: 0.3rem;
+}
+
+.row button {
+padding: 0 2rem;
+margin: 3rem 1rem;
+}
+.container {
+padding: 1rem;
+font-size: 0.9rem;
+line-height: 1.5rem;
+background-color: ghostwhite;
+height: 100%;
+}
+
+.row {
+display: flex;
+align-items: center;
+margin-bottom: 0.8rem;
+}
+
+.row text {
+flex-grow: 1;
+text-align: left;
+}
+
+.selector{
+  display: flex;
+  text-align: center;
+  align-items:center;
+  padding-left: 60px;
+  width:190px;
+  /* padding-left: 50px; */
+   margin-left: 15px; 
+  border: 1px solid #0099CC;
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.15rem #aaa;
+}
+
+.selectorFont{
+  text-align: center;
+}
+
+.contactselector{
+  display: flex;
+  text-align: center;
+  align-items:center;
+   padding-left: 10px; 
+  width:50px;
+  /* padding-left: 50px; */
+   /* margin-left: 15px;  */
+  border: 1px solid #0099CC;
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.15rem #aaa;
+}
+
+.fontStyle{
+  font-size: 10px;
+  text-align: center;
+}

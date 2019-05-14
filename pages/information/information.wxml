@@ -1,0 +1,33 @@
+<!--pages/information/information.wxml-->
+<view class='container'>
+    <view class='row'>
+      <text>名称：</text>
+      <text></text>
+    </view>
+
+    <view class='row'>
+      <text>捡到时间：</text>
+      <text></text>
+    </view>
+
+    <view class='row'>
+      <text>遗失地点：</text>
+      <text></text>
+    </view>
+
+    <view class='row'>
+      <text>{{description}}：</text>
+      <text></text>
+    </view>
+
+    <view class='row'>
+      <text>{{contact}}：</text>
+      <text></text>
+    </view>
+
+    <view>
+
+    </view>
+
+    <button bindtap='confirm' type='primary' style='margin-top:100px'>确定认领</button>
+</view>

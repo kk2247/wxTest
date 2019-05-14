@@ -1,0 +1,17 @@
+<view class="c-minheight wx-view_0NIya2" data-c_e_id="wx_view_4db673fb">
+  <view class="c-minheight wx-view_XcL0Tn" data-c_e_id="wx_view_0c6c9d1e" bindtap='findSchoolCard'>
+    <image class="wx-image_hgMWaG" data-c_e_id="wx_image_e8b5f8f0" mode="scaleToFill" src="/img/384E3901A12BAC55786BB77D7E5673AC.jpg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"
+    />
+    <text class="c-block wx-text_KN1e1A" data-c_e_id="wx_text_fa4224f0" style='font-size:30px;margin-top:40px'>校卡</text>
+  </view>
+  <view class="c-minheight wx-view_XcL0Tn" data-c_e_id="wx_view6df68500" bindtap='findCard'>
+    <image class="wx-image_hgMWaG" data-c_e_id="wx_image021b80b3" mode="scaleToFill" src="/img/AB832B974B6BB7C840CB20709D8553C4.jpg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"
+    />
+    <text class="c-block wx-text_KN1e1A" data-c_e_id="wx_textd956e040" style='font-size:30px;margin-top:40px'>其他证件</text>
+  </view>
+  <view class="c-minheight wx-view_XcL0Tn" data-c_e_id="wx_view47476b9b" bindtap='findOthers'>
+    <image class="wx-image_hgMWaG" data-c_e_id="wx_image7f181a11" mode="scaleToFill" src="/img/b7fcd110cdcf15a9298a331aea6fef7c.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"
+    />
+    <text class="c-block wx-text_KN1e1A" data-c_e_id="wx_text0e118a10" style='font-size:30px;margin-top:40px' >其他</text>
+  </view>
+</view>

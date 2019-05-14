@@ -1,0 +1,20 @@
+<image src='/img/timg (1)(1).jpg' class='bigPicture'></image>
+<view class='search'>
+  <form bindsubmit='formSubmit'>
+    <input class='searchText' name="text" placeholder='{{tip}}'></input>
+    <button form-type='submit' class='iconbutton'>
+      <icon type='search' class='searchIcon'></icon>
+    </button>
+  </form>
+</view>
+<scroll-view class="c-minheight wx-scroll-view_FQdSKB" data-c_e_id="wx_scroll_view_4d5c2023" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
+  <view>
+    <block wx:for="{{list}}">
+      <navigator class='item' url='../change/change?lostThingId={{item.lostThingId}}'>
+        <image src='/img/timg.jpg' class='img'></image>
+        <text class='column1'>名称：{{item.name}}</text>
+        <text class='column1'>{{description}}：{{item.description}}</text>
+      </navigator>
+    </block>
+  </view>
+</scroll-view>

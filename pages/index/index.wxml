@@ -10,4 +10,9 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+
+  <view>
+  <button type='primary' bindtap='loginIn'>登录</button>
+  </view>
+  <view>{{userId}}</view>
 </view>

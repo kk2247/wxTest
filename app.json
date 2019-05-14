@@ -1,14 +1,27 @@
 {
+  "debug": true,
   "pages": [
-    "pages/list/list",
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/operation/operation"
+    "pages/choosePage/choosePage",
+    "pages/information/information",
+    "pages/showLost/showLost",
+    "pages/function/function",
+    "pages/submitPictures/submitPictures",
+    "pages/fullInformation/fullInformation",
+    "pages/addCgi/addCgi",
+    "pages/change/change"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "寻物所",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark"
+  },
+  "networkTimeout": {
+    "connectSocket": "",
+    "request": "",
+    "downloadFile": "",
+    "uploadFile": ""
   }
 }

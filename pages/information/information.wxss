@@ -1,0 +1,19 @@
+/* pages/information/information.wxss */
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: ghostwhite;
+
+}
+
+
+.row {
+display: flex;
+align-items: center;
+margin-bottom: 0.8rem;
+}
+
+.row text {
+flex-grow: 1;
+text-align: right;
+}

@@ -1,0 +1,16 @@
+<!--pages/fullInformation/fullInformation.wxml-->
+<view class='container'>
+  <view class='information'>
+    <view class='line'>名称：{{lostThingName}}</view>
+    <view class='line'>{{tip}}：{{description}}</view>
+    <view class='line'>捡到时间：{{lostTime}}</view>
+    <view class='line'>捡到地点：{{place}}</view>
+    <view class='line'>联系方式:{{contactWay}}</view>
+  </view>
+  <view>
+  <button class='confirm' bindtap='confirm'>认领</button>
+  <button class='delete' bindtap='deletelost'>删除</button>
+  
+
+  </view>
+</view>

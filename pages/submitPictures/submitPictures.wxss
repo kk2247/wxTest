@@ -1,0 +1,29 @@
+/* pages/submitPictures/submitPictures.wxss */
+.container{
+  background-color: ghostwhite;
+  height: 100%;
+}
+
+.img{
+  width: 60%;
+  height: 200px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border: 1px solid #0099CC;
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.15rem #aaa;
+
+}
+
+.fontStyle{
+  font-family:  monospace;
+  text-align: center;
+  margin: 10px;
+}
+
+.buttonStyle{
+  margin-top: 20px;
+  background-color:  aquamarine;
+
+}

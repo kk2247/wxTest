@@ -1,0 +1,38 @@
+<!--pages/fullInformation/fullInformation.wxml-->
+<view class='container'>
+  <form bindsubmit='formSubmit' bindreset='formReset'>
+    <view class='row'>
+      <text>失物名称：</text>
+      <input type='text' name='name' placeholder='什么鬼' value='{{areaName}}'></input>
+    </view>
+    <view class='row'>
+      <text style='text-align:left'>失物类型：</text>
+      <picker mode="selector" range="{{array}}" value="{{index}}" bindchange="selectType" class='selector'>
+        <text class='selectorFont'>{{array[index]}}</text>
+      </picker>
+    </view>
+    <view class='row'>
+      <text>{{tip}}：</text>
+      <input type='text' name='description' placeholder='{{tipText}}' value='{{priority}}'></input>
+    </view>
+
+    <view class='fontStyle'>以下可以二选一提供失主找到失物的方法，喜欢交友可以都写哦</view>
+    <view class='fontStyle'>^_^</view>
+    <view class='row'>
+      <text>联系方式：</text>
+      <picker mode="selector" range="{{contactArray}}" value="{{contactIndex}}" bindchange="selectContact" class='contactselector'>
+        <text class='selectorFont'>{{contactArray[contactIndex]}}</text>
+      </picker>
+      <input type='number' name='contact' placeholder='有空常联系^_^' value='{{priority}}'></input>
+    </view>
+    <view class='row'>
+      <text>失物地点：</text>
+      <input type='text' name='place' placeholder='在哪里捡到的' value='{{priority}}'></input>
+    </view>
+
+    <view class='row'>
+      <button type='primary' form-type='submit'>提交</button>
+      <button type='primary' form-type='reset'>清空</button>
+    </view>
+  </form>
+</view>

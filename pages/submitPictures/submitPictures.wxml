@@ -1,0 +1,8 @@
+<!--pages/submitPictures/submitPictures.wxml-->
+<view class='container'>
+<image class='img' src='{{imgsrc}}'>
+</image>
+<text class='fontStyle'>很抱歉因为开发同学的技术太差</text>
+<text class='fontStyle'>所以图片只能在这里上传Q_Q</text>
+<button  class='buttonStyle' bindtap='addFile'>上传{{lostThingId}}</button>
+</view>

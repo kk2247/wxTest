@@ -1,0 +1,24 @@
+
+.container {
+padding: 1rem;
+font-size: 0.9rem;
+line-height: 1.5rem;
+background-color: ghostwhite;
+height: 100%;
+}
+
+.information{
+
+}
+
+.line{
+  display: block;
+}
+
+.confirm{
+  background: greenyellow
+}
+
+.delete{
+  background-color: lightcoral
+}

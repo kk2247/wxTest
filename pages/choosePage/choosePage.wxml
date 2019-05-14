@@ -1,0 +1,23 @@
+<view class='container'>
+  
+  <view class='first_page'>
+     <swiper class="swiper" indicator-dots="{{indicatorDots}}"  
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+  <block wx:for="{{imgUrls}}">  
+    <swiper-item>  
+      <image src="{{item}}" class="slide-image"/>  
+    </swiper-item>  
+  </block>  
+</swiper>
+   </view>
+  <view class='div' bindtap='find'>
+      <image src='/img/37D7A679D051FD720E7CFB50D5FB21D4.jpg' class='innerPicture'></image>
+      <text class='innerText'>丢失物品</text>
+   </view>
+
+   <view class='div' bindtap='lost'>
+      <image src='/img/2A0F6D5031A4EAEE8BEA011DFB481D0B.jpg' class='innerPicture'></image>
+      <text class='innerText'>捡到物品</text>
+   </view>
+  
+</view>

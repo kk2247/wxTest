@@ -1,0 +1,15 @@
+<!--pages/loginIn/loginIn.wxml-->
+<!--index.wxml-->
+<view class="container">
+    <!-- 用户登录测试 -->
+    <view  class='loginImg'>
+        <image
+            bindtap="login"
+            class="userinfo-avatar"
+            src="{{logged ? userInfo.avatarUrl : './wizard-city.jpg'}}"
+            background-size="cover"
+        ></image>
+         <view>{{userName}}</view> 
+    </view>
+</view>
+

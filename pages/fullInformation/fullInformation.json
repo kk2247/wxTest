@@ -1,0 +1,10 @@
+{
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "填写失物信息",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark"
+  }
+}
